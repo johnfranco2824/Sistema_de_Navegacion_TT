@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (-) JobUnselected: {'identifier': 'diferencial_description'}
+[0.000536] (diferencial_bringup) JobQueued: {'identifier': 'diferencial_bringup', 'dependencies': OrderedDict([('diferencial_description', '/home/johnfranco/Diferencial_ws/src/install/diferencial_description')])}
+[0.000605] (diferencial_bringup) JobStarted: {'identifier': 'diferencial_bringup'}
+[0.014012] (diferencial_bringup) JobEnded: {'identifier': 'diferencial_bringup', 'rc': 1}
+[0.015118] (-) EventReactorShutdown: {}
