@@ -1,0 +1,9 @@
+/home/johnfranco/Diferencial_ws/src/build/diferencial_controller/CMakeFiles/uninstall.dir
+/home/johnfranco/Diferencial_ws/src/build/diferencial_controller/CMakeFiles/diferencial_controller_uninstall.dir
+/home/johnfranco/Diferencial_ws/src/build/diferencial_controller/CMakeFiles/test.dir
+/home/johnfranco/Diferencial_ws/src/build/diferencial_controller/CMakeFiles/edit_cache.dir
+/home/johnfranco/Diferencial_ws/src/build/diferencial_controller/CMakeFiles/rebuild_cache.dir
+/home/johnfranco/Diferencial_ws/src/build/diferencial_controller/CMakeFiles/list_install_components.dir
+/home/johnfranco/Diferencial_ws/src/build/diferencial_controller/CMakeFiles/install.dir
+/home/johnfranco/Diferencial_ws/src/build/diferencial_controller/CMakeFiles/install/local.dir
+/home/johnfranco/Diferencial_ws/src/build/diferencial_controller/CMakeFiles/install/strip.dir

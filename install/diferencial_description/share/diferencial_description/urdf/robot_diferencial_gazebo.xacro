@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<robot  xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <gazebo reference="base_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <gazebo reference="Llanta_trasera_derecha_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+    <gazebo reference="Llanta_trasera_izquierda_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+    <gazebo reference="Llanta_delantera_derecha_link">
+        <material>Gazebo/Black</material>
+        <mu1 value="0.1" />
+        <mu2 value="0.1" />
+    </gazebo>
+
+    <gazebo reference="Llanta_delantera_izquierda_link">
+        <material>Gazebo/Black</material>
+        <mu1 value="0.1" />
+        <mu2 value="0.1" />
+    </gazebo>
+
+    <gazebo reference="Lidar_link">
+        <material>Gazebo/Red</material>
+    </gazebo>
+    
+    <gazebo reference="camara_link">
+        <material>Gazebo/Red</material>
+    </gazebo>
+
+</robot>

@@ -1,0 +1,27 @@
+[0.041s] Invoking command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer -- -j4 -l4
+[0.131s] Invoked command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer -- -j4 -l4
+[0.197s] Invoking command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer
+[0.211s] -- Install configuration: ""
+[0.211s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer//launch
+[0.211s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer//launch/occupancy_grid.launch.py
+[0.213s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer//launch/cartographer.launch.py
+[0.214s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer//config
+[0.214s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer//config/diferencial_lds_2d.lua
+[0.214s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer//rviz
+[0.214s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer//rviz/diferencial_cartographer.rviz
+[0.215s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/ament_index/resource_index/package_run_dependencies/diferencial_cartographer
+[0.215s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/ament_index/resource_index/parent_prefix_path/diferencial_cartographer
+[0.215s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/environment/ament_prefix_path.sh
+[0.215s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/environment/ament_prefix_path.dsv
+[0.215s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/environment/path.sh
+[0.215s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/environment/path.dsv
+[0.216s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/local_setup.bash
+[0.216s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/local_setup.sh
+[0.216s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/local_setup.zsh
+[0.216s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/local_setup.dsv
+[0.216s] -- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/package.dsv
+[0.216s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/ament_index/resource_index/packages/diferencial_cartographer
+[0.216s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/cmake/diferencial_cartographerConfig.cmake
+[0.217s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/cmake/diferencial_cartographerConfig-version.cmake
+[0.217s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/package.xml
+[0.223s] Invoked command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer

@@ -1,0 +1,43 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/johnfranco/Diferencial_ws/src/build/diferencial_bringup
+-- Install configuration: ""
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup//launch
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup//launch/diferencial_gazebo2.launch.py
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup//launch/turtlebot3_maze.launch.py
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup//launch/diferencial_gazebo.launch.py
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup//launch/diferencial_gazebo.launch.xml
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup//rviz
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup//rviz/urdf_config.rviz
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup//worlds
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup//worlds/Trayectoria.world
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup//worlds/UPIITA.world
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/ament_index/resource_index/package_run_dependencies/diferencial_bringup
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/ament_index/resource_index/parent_prefix_path/diferencial_bringup
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/environment/path.sh
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/environment/path.dsv
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/local_setup.bash
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/local_setup.sh
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/local_setup.zsh
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/local_setup.dsv
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/package.dsv
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/ament_index/resource_index/packages/diferencial_bringup
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/cmake/diferencial_bringupConfig.cmake
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/cmake/diferencial_bringupConfig-version.cmake
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/package.xml

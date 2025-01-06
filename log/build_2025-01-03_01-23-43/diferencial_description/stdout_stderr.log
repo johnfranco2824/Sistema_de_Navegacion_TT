@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/johnfranco/Diferencial_ws/src/build/diferencial_description
+-- Install configuration: ""
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/robot_diferencial.xacro
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/lidar_scan_listener.py
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/controller2.py
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/data_py.txt
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/robot_diferencial_gazebo.xacro
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/common_properties.xacro
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/controller.xacro
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/camera.xacro
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/diferencial.urdf.xacro
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/lidar.xacro
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//launch
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//launch/display.launch.xml
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//rviz
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//rviz/urdf_config.rviz
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/ament_index/resource_index/package_run_dependencies/diferencial_description
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/ament_index/resource_index/parent_prefix_path/diferencial_description
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/environment/ament_prefix_path.sh
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/environment/ament_prefix_path.dsv
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/environment/path.sh
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/environment/path.dsv
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/local_setup.bash
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/local_setup.sh
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/local_setup.zsh
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/local_setup.dsv
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/package.dsv
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/ament_index/resource_index/packages/diferencial_description
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/cmake/diferencial_descriptionConfig.cmake
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/cmake/diferencial_descriptionConfig-version.cmake
+-- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/package.xml

@@ -1,0 +1,313 @@
+[0.188s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.188s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f354772ee30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3547823b80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3547823b80>>, mixin_verb=('build',))
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.516s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/johnfranco/Diferencial_ws/src'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_bringup) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_bringup) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_bringup) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_bringup) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_bringup) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_bringup) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_bringup) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_bringup) by extension 'ros'
+[0.592s] DEBUG:colcon.colcon_core.package_identification:Package 'diferencial_bringup' with type 'ros.ament_cmake' and name 'diferencial_bringup'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_cartographer) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_cartographer) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_cartographer) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_cartographer) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_cartographer) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_cartographer) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_cartographer) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_cartographer) by extension 'ros'
+[0.594s] DEBUG:colcon.colcon_core.package_identification:Package 'diferencial_cartographer' with type 'ros.ament_cmake' and name 'diferencial_cartographer'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_controller) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_controller) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_controller) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_controller) by extension 'colcon_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_controller) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_controller) by extension 'colcon_meta'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_controller) by extensions ['ros']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_controller) by extension 'ros'
+[0.596s] DEBUG:colcon.colcon_core.package_identification:Package 'diferencial_controller' with type 'ros.ament_cmake' and name 'diferencial_controller'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_description) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_description) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_description) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_description) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_description) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_description) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_description) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_description) by extensions ['ros']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(diferencial_description) by extension 'ros'
+[0.598s] DEBUG:colcon.colcon_core.package_identification:Package 'diferencial_description' with type 'ros.ament_cmake' and name 'diferencial_description'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.637s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/johnfranco/ros2_ws/install
+[0.638s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/johnfranco/turtlebot3_ws/install
+[0.639s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/johnfranco/Diferencial_ws/install
+[0.641s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 399 installed packages in /opt/ros/humble
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'diferencial_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'diferencial_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.733s] Level 5:colcon.colcon_core.verb:set package 'diferencial_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'diferencial_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'diferencial_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'diferencial_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'diferencial_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'diferencial_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'diferencial_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.734s] DEBUG:colcon.colcon_core.verb:Building package 'diferencial_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer', 'merge_install': False, 'path': '/home/johnfranco/Diferencial_ws/src/diferencial_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'diferencial_controller' build argument 'cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'diferencial_controller' build argument 'cmake_target' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'diferencial_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'diferencial_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'diferencial_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'diferencial_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'diferencial_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'diferencial_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'diferencial_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.735s] DEBUG:colcon.colcon_core.verb:Building package 'diferencial_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johnfranco/Diferencial_ws/src/build/diferencial_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller', 'merge_install': False, 'path': '/home/johnfranco/Diferencial_ws/src/diferencial_controller', 'symlink_install': False, 'test_result_base': None}
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'diferencial_description' build argument 'cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'diferencial_description' build argument 'cmake_target' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'diferencial_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'diferencial_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'diferencial_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'diferencial_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'diferencial_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'diferencial_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'diferencial_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.736s] DEBUG:colcon.colcon_core.verb:Building package 'diferencial_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johnfranco/Diferencial_ws/src/build/diferencial_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johnfranco/Diferencial_ws/src/install/diferencial_description', 'merge_install': False, 'path': '/home/johnfranco/Diferencial_ws/src/diferencial_description', 'symlink_install': False, 'test_result_base': None}
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'diferencial_bringup' build argument 'cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'diferencial_bringup' build argument 'cmake_target' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'diferencial_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'diferencial_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'diferencial_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'diferencial_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'diferencial_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'diferencial_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'diferencial_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.737s] DEBUG:colcon.colcon_core.verb:Building package 'diferencial_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johnfranco/Diferencial_ws/src/build/diferencial_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup', 'merge_install': False, 'path': '/home/johnfranco/Diferencial_ws/src/diferencial_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.737s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.739s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.740s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johnfranco/Diferencial_ws/src/diferencial_description' with build type 'ament_cmake'
+[0.740s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johnfranco/Diferencial_ws/src/diferencial_description'
+[0.744s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.754s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johnfranco/Diferencial_ws/src/diferencial_cartographer' with build type 'ament_cmake'
+[0.754s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johnfranco/Diferencial_ws/src/diferencial_cartographer'
+[0.755s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.755s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.764s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johnfranco/Diferencial_ws/src/diferencial_controller' with build type 'ament_cmake'
+[0.764s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johnfranco/Diferencial_ws/src/diferencial_controller'
+[0.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/johnfranco/Diferencial_ws/src/build/diferencial_description -- -j4 -l4
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer -- -j4 -l4
+[0.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/johnfranco/Diferencial_ws/src/build/diferencial_controller -- -j4 -l4
+[0.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer -- -j4 -l4
+[0.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/johnfranco/Diferencial_ws/src/build/diferencial_description -- -j4 -l4
+[0.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/johnfranco/Diferencial_ws/src/build/diferencial_controller -- -j4 -l4
+[0.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer
+[0.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/johnfranco/Diferencial_ws/src/build/diferencial_controller
+[0.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/johnfranco/Diferencial_ws/src/build/diferencial_description
+[0.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diferencial_cartographer)
+[0.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/johnfranco/Diferencial_ws/src/build/diferencial_cartographer
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer' for CMake module files
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer' for CMake config files
+[0.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('diferencial_cartographer', 'cmake_prefix_path')
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/hook/cmake_prefix_path.ps1'
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/hook/cmake_prefix_path.dsv'
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/hook/cmake_prefix_path.sh'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/bin'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/lib/pkgconfig/diferencial_cartographer.pc'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/lib/python3.10/site-packages'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/bin'
+[0.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/package.ps1'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/package.dsv'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/package.sh'
+[0.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/package.bash'
+[0.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/package.zsh'
+[0.998s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/colcon-core/packages/diferencial_cartographer)
+[1.001s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diferencial_controller)
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller' for CMake module files
+[1.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/johnfranco/Diferencial_ws/src/build/diferencial_controller
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller' for CMake config files
+[1.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('diferencial_controller', 'cmake_prefix_path')
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/hook/cmake_prefix_path.ps1'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/hook/cmake_prefix_path.dsv'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/hook/cmake_prefix_path.sh'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/bin'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/lib/pkgconfig/diferencial_controller.pc'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/lib/python3.10/site-packages'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/bin'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/package.ps1'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/package.dsv'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/package.sh'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/package.bash'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/package.zsh'
+[1.013s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/colcon-core/packages/diferencial_controller)
+[1.015s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diferencial_description)
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_description' for CMake module files
+[1.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/johnfranco/Diferencial_ws/src/build/diferencial_description
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_description' for CMake config files
+[1.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('diferencial_description', 'cmake_prefix_path')
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/hook/cmake_prefix_path.ps1'
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/hook/cmake_prefix_path.dsv'
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/hook/cmake_prefix_path.sh'
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/bin'
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/lib/pkgconfig/diferencial_description.pc'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/lib/python3.10/site-packages'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/bin'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/package.ps1'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/package.dsv'
+[1.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/package.sh'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/package.bash'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/package.zsh'
+[1.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/colcon-core/packages/diferencial_description)
+[1.038s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diferencial_cartographer)
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer' for CMake module files
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer' for CMake config files
+[1.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('diferencial_cartographer', 'cmake_prefix_path')
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/hook/cmake_prefix_path.ps1'
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/hook/cmake_prefix_path.dsv'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/hook/cmake_prefix_path.sh'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/bin'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/lib/pkgconfig/diferencial_cartographer.pc'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/lib/python3.10/site-packages'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/bin'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/package.ps1'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/package.dsv'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/package.sh'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/package.bash'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/diferencial_cartographer/package.zsh'
+[1.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johnfranco/Diferencial_ws/src/install/diferencial_cartographer/share/colcon-core/packages/diferencial_cartographer)
+[1.055s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diferencial_controller)
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller' for CMake module files
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller' for CMake config files
+[1.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('diferencial_controller', 'cmake_prefix_path')
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/hook/cmake_prefix_path.ps1'
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/hook/cmake_prefix_path.dsv'
+[1.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/hook/cmake_prefix_path.sh'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/bin'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/lib/pkgconfig/diferencial_controller.pc'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/lib/python3.10/site-packages'
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/bin'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/package.ps1'
+[1.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/package.dsv'
+[1.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/package.sh'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/package.bash'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/diferencial_controller/package.zsh'
+[1.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johnfranco/Diferencial_ws/src/install/diferencial_controller/share/colcon-core/packages/diferencial_controller)
+[1.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diferencial_description)
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_description' for CMake module files
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_description' for CMake config files
+[1.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('diferencial_description', 'cmake_prefix_path')
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/hook/cmake_prefix_path.ps1'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/hook/cmake_prefix_path.dsv'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/hook/cmake_prefix_path.sh'
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/bin'
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/lib/pkgconfig/diferencial_description.pc'
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/lib/python3.10/site-packages'
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/bin'
+[1.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/package.ps1'
+[1.078s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/package.dsv'
+[1.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/package.sh'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/package.bash'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/package.zsh'
+[1.080s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/colcon-core/packages/diferencial_description)
+[1.081s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johnfranco/Diferencial_ws/src/diferencial_bringup' with build type 'ament_cmake'
+[1.081s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johnfranco/Diferencial_ws/src/diferencial_bringup'
+[1.082s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_bringup': AMENT_PREFIX_PATH=/home/johnfranco/Diferencial_ws/src/install/diferencial_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johnfranco/Diferencial_ws/src/install/diferencial_description:/home/johnfranco/Diferencial_ws/install/diferencial_bringup:/home/johnfranco/Diferencial_ws/install/diferencial_description:/home/johnfranco/Diferencial_ws/install/diferencial_controller:/home/johnfranco/Diferencial_ws/install/diferencial_cartographer:/home/johnfranco/ros2_ws/install/my_robot_bringup:/home/johnfranco/ros2_ws/install/my_robot_interfaces:/home/johnfranco/ros2_ws/install/my_robot_bringup_gaz:/home/johnfranco/ros2_ws/install/my_robot_description:/home/johnfranco/ros2_ws/install/my_cpp_pkg:/home/johnfranco/turtlebot3_ws/install/turtlebot3_simulations:/home/johnfranco/turtlebot3_ws/install/turtlebot3_gazebo:/home/johnfranco/turtlebot3_ws/install/turtlebot3_fake_node:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/johnfranco/Diferencial_ws/src/build/diferencial_bringup -- -j4 -l4
+[1.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_bringup' returned '0': AMENT_PREFIX_PATH=/home/johnfranco/Diferencial_ws/src/install/diferencial_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johnfranco/Diferencial_ws/src/install/diferencial_description:/home/johnfranco/Diferencial_ws/install/diferencial_bringup:/home/johnfranco/Diferencial_ws/install/diferencial_description:/home/johnfranco/Diferencial_ws/install/diferencial_controller:/home/johnfranco/Diferencial_ws/install/diferencial_cartographer:/home/johnfranco/ros2_ws/install/my_robot_bringup:/home/johnfranco/ros2_ws/install/my_robot_interfaces:/home/johnfranco/ros2_ws/install/my_robot_bringup_gaz:/home/johnfranco/ros2_ws/install/my_robot_description:/home/johnfranco/ros2_ws/install/my_cpp_pkg:/home/johnfranco/turtlebot3_ws/install/turtlebot3_simulations:/home/johnfranco/turtlebot3_ws/install/turtlebot3_gazebo:/home/johnfranco/turtlebot3_ws/install/turtlebot3_fake_node:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/johnfranco/Diferencial_ws/src/build/diferencial_bringup -- -j4 -l4
+[1.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_bringup': AMENT_PREFIX_PATH=/home/johnfranco/Diferencial_ws/src/install/diferencial_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johnfranco/Diferencial_ws/src/install/diferencial_description:/home/johnfranco/Diferencial_ws/install/diferencial_bringup:/home/johnfranco/Diferencial_ws/install/diferencial_description:/home/johnfranco/Diferencial_ws/install/diferencial_controller:/home/johnfranco/Diferencial_ws/install/diferencial_cartographer:/home/johnfranco/ros2_ws/install/my_robot_bringup:/home/johnfranco/ros2_ws/install/my_robot_interfaces:/home/johnfranco/ros2_ws/install/my_robot_bringup_gaz:/home/johnfranco/ros2_ws/install/my_robot_description:/home/johnfranco/ros2_ws/install/my_cpp_pkg:/home/johnfranco/turtlebot3_ws/install/turtlebot3_simulations:/home/johnfranco/turtlebot3_ws/install/turtlebot3_gazebo:/home/johnfranco/turtlebot3_ws/install/turtlebot3_fake_node:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/johnfranco/Diferencial_ws/src/build/diferencial_bringup
+[1.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diferencial_bringup)
+[1.231s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup' for CMake module files
+[1.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_bringup' returned '0': AMENT_PREFIX_PATH=/home/johnfranco/Diferencial_ws/src/install/diferencial_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johnfranco/Diferencial_ws/src/install/diferencial_description:/home/johnfranco/Diferencial_ws/install/diferencial_bringup:/home/johnfranco/Diferencial_ws/install/diferencial_description:/home/johnfranco/Diferencial_ws/install/diferencial_controller:/home/johnfranco/Diferencial_ws/install/diferencial_cartographer:/home/johnfranco/ros2_ws/install/my_robot_bringup:/home/johnfranco/ros2_ws/install/my_robot_interfaces:/home/johnfranco/ros2_ws/install/my_robot_bringup_gaz:/home/johnfranco/ros2_ws/install/my_robot_description:/home/johnfranco/ros2_ws/install/my_cpp_pkg:/home/johnfranco/turtlebot3_ws/install/turtlebot3_simulations:/home/johnfranco/turtlebot3_ws/install/turtlebot3_gazebo:/home/johnfranco/turtlebot3_ws/install/turtlebot3_fake_node:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/johnfranco/Diferencial_ws/src/build/diferencial_bringup
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup' for CMake config files
+[1.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('diferencial_bringup', 'cmake_prefix_path')
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/hook/cmake_prefix_path.ps1'
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/hook/cmake_prefix_path.dsv'
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/hook/cmake_prefix_path.sh'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/bin'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/lib/pkgconfig/diferencial_bringup.pc'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/lib/python3.10/site-packages'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/bin'
+[1.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/package.ps1'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/package.dsv'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/package.sh'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/package.bash'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/package.zsh'
+[1.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/colcon-core/packages/diferencial_bringup)
+[1.279s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diferencial_bringup)
+[1.279s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup' for CMake module files
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup' for CMake config files
+[1.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('diferencial_bringup', 'cmake_prefix_path')
+[1.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/hook/cmake_prefix_path.ps1'
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/hook/cmake_prefix_path.dsv'
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/hook/cmake_prefix_path.sh'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/bin'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/lib/pkgconfig/diferencial_bringup.pc'
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/lib/python3.10/site-packages'
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/bin'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/package.ps1'
+[1.286s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/package.dsv'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/package.sh'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/package.bash'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/diferencial_bringup/package.zsh'
+[1.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johnfranco/Diferencial_ws/src/install/diferencial_bringup/share/colcon-core/packages/diferencial_bringup)
+[1.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.291s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.291s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.291s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.302s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.333s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.334s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johnfranco/Diferencial_ws/src/install/local_setup.ps1'
+[1.336s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/johnfranco/Diferencial_ws/src/install/_local_setup_util_ps1.py'
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johnfranco/Diferencial_ws/src/install/setup.ps1'
+[1.346s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johnfranco/Diferencial_ws/src/install/local_setup.sh'
+[1.348s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/johnfranco/Diferencial_ws/src/install/_local_setup_util_sh.py'
+[1.351s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johnfranco/Diferencial_ws/src/install/setup.sh'
+[1.356s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johnfranco/Diferencial_ws/src/install/local_setup.bash'
+[1.357s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johnfranco/Diferencial_ws/src/install/setup.bash'
+[1.362s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johnfranco/Diferencial_ws/src/install/local_setup.zsh'
+[1.364s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johnfranco/Diferencial_ws/src/install/setup.zsh'

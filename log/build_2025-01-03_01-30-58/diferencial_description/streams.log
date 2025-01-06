@@ -1,0 +1,35 @@
+[0.043s] Invoking command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/johnfranco/Diferencial_ws/src/build/diferencial_description -- -j4 -l4
+[0.151s] Invoked command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/johnfranco/Diferencial_ws/src/build/diferencial_description -- -j4 -l4
+[0.219s] Invoking command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/johnfranco/Diferencial_ws/src/build/diferencial_description
+[0.247s] -- Install configuration: ""
+[0.247s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf
+[0.248s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/robot_diferencial.xacro
+[0.248s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/lidar_scan_listener.py
+[0.248s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/controller2.py
+[0.248s] -- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/data_py.txt
+[0.248s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/robot_diferencial_gazebo.xacro
+[0.248s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/common_properties.xacro
+[0.248s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/controller.xacro
+[0.249s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/camera.xacro
+[0.249s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/diferencial.urdf.xacro
+[0.249s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//urdf/lidar.xacro
+[0.249s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//launch
+[0.249s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//launch/display.launch.xml
+[0.249s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//rviz
+[0.249s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description//rviz/urdf_config.rviz
+[0.249s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/ament_index/resource_index/package_run_dependencies/diferencial_description
+[0.250s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/ament_index/resource_index/parent_prefix_path/diferencial_description
+[0.250s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/environment/ament_prefix_path.sh
+[0.250s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/environment/ament_prefix_path.dsv
+[0.250s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/environment/path.sh
+[0.250s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/environment/path.dsv
+[0.250s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/local_setup.bash
+[0.250s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/local_setup.sh
+[0.250s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/local_setup.zsh
+[0.251s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/local_setup.dsv
+[0.251s] -- Installing: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/package.dsv
+[0.251s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/ament_index/resource_index/packages/diferencial_description
+[0.251s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/cmake/diferencial_descriptionConfig.cmake
+[0.251s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/cmake/diferencial_descriptionConfig-version.cmake
+[0.252s] -- Up-to-date: /home/johnfranco/Diferencial_ws/src/install/diferencial_description/share/diferencial_description/package.xml
+[0.289s] Invoked command in '/home/johnfranco/Diferencial_ws/src/build/diferencial_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johnfranco/ros2_ws/install/turtlesim_catch:/home/johnfranco/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/johnfranco/Diferencial_ws/src/build/diferencial_description
