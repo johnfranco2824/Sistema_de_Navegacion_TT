@@ -113,10 +113,11 @@ class DiffRobotController(Node):
         self.error_y_pub.publish(error_y_msg)
 
         # Guardar datos
-        self.file_obj.write(f"{self.t:.3f}\t{Xd:.3f}\t{Yd:.3f}\t{self.x:.3f}\t{self.y:.3f}\t{self.V:.3f}\t{self.W:.3f}\n")
+        self.file_obj.write(f"{self.t:.3f}\t{self.ex:.3f}\t{self.ey:.3f}\t{self.x:.3f}\t{self.y:.3f}\t{Xd:.3f}\t{Yd:.3f}\n")
 
         if self.counter == 25:
-            self.get_logger().info(f"t: {self.t:.2f}, ex: {self.ex:.3f}, ey: {self.ey:.3f}, Xd: {Xd:.3f}, Yd: {Yd:.3f}")
+            #self.get_logger().info(f"t: {self.t:.2f}, ex: {self.ex:.3f}, ey: {self.ey:.3f}, Xd: {Xd:.3f}, Yd: {Yd:.3f}")
+            self.get_logger().info(f"t: {self.t:.2f}, ex: {self.ex:.3f}, ey: {self.ey:.3f}")
             self.counter = 0
         else:
             self.counter += 1
